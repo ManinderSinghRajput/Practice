@@ -1,0 +1,42 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MAX_2_POW_N	main.h	9;"	d
+META_SIZE	main.h	18;"	d
+MYSTRING	main.h	8;"	d
+MYSTRING	main_bk.c	3;"	d	file:
+__DEBUGMAGIC	main.h	3;"	d
+__DEBUGMAGIC	main.h	5;"	d
+block_meta	main.h	/^struct block_meta {$/;"	s
+change_to_2_power_n	main.c	/^size_t change_to_2_power_n(size_t value)$/;"	f
+change_to_2_power_n	main.s	/^change_to_2_power_n:$/;"	l
+find_free_block	main.c	/^struct block_meta *find_free_block(struct block_meta **last, size_t size)$/;"	f
+find_free_block	main.s	/^find_free_block:$/;"	l
+free	main.h	/^  int free;$/;"	m	struct:block_meta
+get_block_ptr	main.c	/^struct block_meta *get_block_ptr(void *ptr) {$/;"	f
+get_block_ptr	main.s	/^get_block_ptr:$/;"	l
+global_base	main.h	/^void *global_base = NULL;$/;"	v
+global_base	main.s	/^global_base:$/;"	l
+main	main.c	/^void main()$/;"	f
+main	main.s	/^main:$/;"	l
+main	main_bk.c	/^void main()$/;"	f
+main1	main.c	/^void main1()$/;"	f
+main1	main.s	/^main1:$/;"	l
+mycalloc	main.c	/^void *mycalloc(size_t nelem, size_t elsize) {$/;"	f
+mycalloc	main.s	/^mycalloc:$/;"	l
+myfree	main.c	/^void myfree(void *ptr)$/;"	f
+myfree	main.s	/^myfree:$/;"	l
+mymalloc	main.c	/^void *mymalloc(size_t size) $/;"	f
+mymalloc	main.s	/^mymalloc:$/;"	l
+myprint	main.c	/^void myprint()$/;"	f
+myprint	main.s	/^myprint:$/;"	l
+myprint	main_bk.c	/^void myprint()$/;"	f
+myrealloc	main.c	/^void *myrealloc(void *ptr, size_t size) {$/;"	f
+myrealloc	main.s	/^myrealloc:$/;"	l
+next	main.h	/^  struct block_meta *next;$/;"	m	struct:block_meta	typeref:struct:block_meta::block_meta
+request_space	main.c	/^struct block_meta *request_space(struct block_meta* last, size_t size)$/;"	f
+request_space	main.s	/^request_space:$/;"	l
+size	main.h	/^  size_t size;$/;"	m	struct:block_meta

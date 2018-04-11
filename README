@@ -1,0 +1,28 @@
+Memory Management:
+	CustomizedMemoryAllocator		: https://danluu.com/malloc-tutorial/
+	Malloc Pdf				: http://www.inf.udec.cl/~leo/Malloc_tutorial.pdf
+	sbrk/brk				: man sbrk , man brk, http://man7.org/linux/man-pages/man2/sbrk.2.html
+	getrlimits/setrlimit			: man getrlimit, man setrlimit, http://man7.org/linux/man-pages/man2/setrlimit.2.html
+	Malloc Overview and Summary		: https://sourceware.org/glibc/wiki/MallocInternals
+	Memory layout				: https://www.geeksforgeeks.org/memory-layout-of-c-program/
+        Mmap					: https://www.safaribooksonline.com/library/view/linux-system-programming/0596009585/ch04s03.html
+
+Statis and Dynamic Libraries:
+	Static and dynamic Libraries		: http://cs-fundamentals.com/c-programming/static-and-dynamic-linking-in-c.php
+	Relocatable vs Position-Independent Code: http://davidad.github.io/blog/2014/02/19/relocatable-vs-position-independent-code-or/
+
+GCC:
+	gcc Compiler				: http://www.thegeekstuff.com/2012/10/gcc-compiler-options/?utm_source=feedburner
+	gcc and make				: https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html
+
+Socket Programming:
+	Socket Programming in C			: https://www.geeksforgeeks.org/socket-programming-cc/
+	Socket Programming in C(Slides)		: http://www.csd.uoc.gr/~hy556/material/tutorials/cs556-3rd-tutorial.pdf
+
+Shell Scripting:
+	Advanced Shell Scripting		: http://tldp.org/LDP/abs/html/why-shell.html
+	String manipulation			: https://www.linuxnix.com/linuxunix-shell-scripting-10-string-manapluation-examples/
+	
+Shell Script, Docker, Kubernetes....anything	: https://www.linuxnix.com/
+
+Memory fences:

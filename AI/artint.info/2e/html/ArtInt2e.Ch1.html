@@ -1,0 +1,187 @@
+<!DOCTYPE html><html>
+<head>
+<title>1 Artificial Intelligence and Agents‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition</title>
+<!--Generated on Mon Nov  6 09:10:14 2017 by LaTeXML (version 0.8.2) http://dlmf.nist.gov/LaTeXML/.-->
+<!--Document created on November 6, 2017.-->
+
+<link rel="stylesheet" href="styleBook.css" type="text/css" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19416541-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="LaTeXML.css" type="text/css">
+<link rel="stylesheet" href="ltx-book.css" type="text/css">
+<link rel="up" href="ArtInt2e.html" title="Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="start" href="ArtInt2e.html" title="Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="prev" href="ArtInt2e.Chx1.html" title="Preface ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="next" href="ArtInt2e.Ch1.S1.html" title="1.1 What is Artificial Intelligence? ‣ Chapter 1 Artificial Intelligence and Agents ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="chapter" href="ArtInt2e.Chx1.html" title="Preface ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="chapter" href="ArtInt2e.Ch2.html" title="Chapter 2 Agent Architectures and Hierarchical Control ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="chapter" href="ArtInt2e.Ch3.html" title="Chapter 3 Searching for Solutions ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="chapter" href="ArtInt2e.Ch4.html" title="Chapter 4 Reasoning with Constraints ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="chapter" href="ArtInt2e.Ch5.html" title="Chapter 5 Propositions and Inference ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="chapter" href="ArtInt2e.Ch6.html" title="Chapter 6 Planning with Certainty ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="chapter" href="ArtInt2e.Ch7.html" title="Chapter 7 Supervised Machine Learning ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="chapter" href="ArtInt2e.Ch8.html" title="Chapter 8 Reasoning with Uncertainty ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="chapter" href="ArtInt2e.Ch9.html" title="Chapter 9 Planning with Uncertainty ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="chapter" href="ArtInt2e.Ch10.html" title="Chapter 10 Learning with Uncertainty ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="chapter" href="ArtInt2e.Ch11.html" title="Chapter 11 Multiagent Systems ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="chapter" href="ArtInt2e.Ch12.html" title="Chapter 12 Learning to Act ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="chapter" href="ArtInt2e.Ch13.html" title="Chapter 13 Individuals and Relations ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="chapter" href="ArtInt2e.Ch14.html" title="Chapter 14 Ontologies and Knowledge-Based Systems ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="chapter" href="ArtInt2e.Ch15.html" title="Chapter 15 Relational Planning, Learning, and Probabilistic Reasoning ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="chapter" href="ArtInt2e.Ch16.html" title="Chapter 16 Retrospect and Prospect ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="appendix" href="ArtInt2e.A1.html" title="Appendix A Mathematical Preliminaries and Notation ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="bibliography" href="ArtInt2e.bib.html" title="Bibliography ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="index" href="ArtInt2e.idx.html" title="Index ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="section" href="ArtInt2e.Ch1.S1.html" title="1.1 What is Artificial Intelligence? ‣ Chapter 1 Artificial Intelligence and Agents ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="section" href="ArtInt2e.Ch1.S2.html" title="1.2 A Brief History of Artificial Intelligence ‣ Chapter 1 Artificial Intelligence and Agents ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="section" href="ArtInt2e.Ch1.S3.html" title="1.3 Agents Situated in Environments ‣ Chapter 1 Artificial Intelligence and Agents ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="section" href="ArtInt2e.Ch1.S4.html" title="1.4 Designing Agents ‣ Chapter 1 Artificial Intelligence and Agents ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="section" href="ArtInt2e.Ch1.S5.html" title="1.5 Agent Design Space ‣ Chapter 1 Artificial Intelligence and Agents ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="section" href="ArtInt2e.Ch1.S6.html" title="1.6 Prototypical Applications ‣ Chapter 1 Artificial Intelligence and Agents ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="section" href="ArtInt2e.Ch1.S7.html" title="1.7 Overview of the Book ‣ Chapter 1 Artificial Intelligence and Agents ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="section" href="ArtInt2e.Ch1.S8.html" title="1.8 Review ‣ Chapter 1 Artificial Intelligence and Agents ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="section" href="ArtInt2e.Ch1.S9.html" title="1.9 References and Further Reading ‣ Chapter 1 Artificial Intelligence and Agents ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+<link rel="section" href="ArtInt2e.Ch1.S10.html" title="1.10 Exercises ‣ Chapter 1 Artificial Intelligence and Agents ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition">
+</head>
+<body>
+<div id="wrap">
+
+	<!--header -->
+	<div id="header">			
+		<h1 id="logo-text"><a href="../index.html" title="">Artificial <br/>Intelligence 2E</a></h1>		
+		<p id="logo-subtext">foundations of computational agents</p>
+	<!--header ends-->					
+	</div>
+	
+	<!-- navigation starts-->	
+	<div id="nav">		
+<a href="ArtInt2e.Chx1.html"><img class="previous" alt="Previous" src="../../images/arrow-left.gif"/></a><a href="ArtInt2e.html"><img class="up" alt="Up" src="../../images/arrow-up.gif"/></a><a href="ArtInt2e.Ch1.S1.html"><img class="next" alt="Next" src="../../images/arrow-right.gif"/></a><ul><li><a href="../../index.html">Home</a></li><li><a href="ArtInt2e.idx.html">Index</a></li><li><a href="ArtInt2e.html">Contents</a></li></ul>
+	<!-- navigation ends-->	
+	</div>
+
+<div class="ltx_page_main">
+<header class="ltx_page_header">
+<div>
+<a href="ArtInt2e.html" title="Artificial Intelligence: Foundations of Computational Agents, 2nd Edition" class="ltx_ref" rel="up"><span class="ltx_text ltx_ref_title">Artificial Intelligence: Foundations of Computational Agents,
+ 2nd Edition</span></a><a href="ArtInt2e.Chx1.html" title="Preface ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition" class="ltx_ref" rel="prev"><span class="ltx_text ltx_ref_title">Preface</span></a><a href="ArtInt2e.Ch1.S1.html" title="1.1 What is Artificial Intelligence? ‣ Chapter 1 Artificial Intelligence and Agents ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition" class="ltx_ref" rel="next"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">1.1 </span>What is Artificial Intelligence?</span></a>
+</div></header>
+<div class="ltx_page_content">
+<section class="ltx_chapter ltx_fleqn">
+<h1 class="ltx_title ltx_title_chapter">
+<span class="ltx_tag ltx_tag_chapter">Chapter 1 </span>Artificial Intelligence and Agents</h1>
+<div class="ltx_date ltx_role_creation"></div>
+
+<div id="p1" class="ltx_para">
+<blockquote class="ltx_quote">
+<p class="ltx_p"><em class="ltx_emph">The history of AI is a history of fantasies, possibilities,
+demonstrations, and promise. Ever since Homer wrote of mechanical
+“tripods” waiting on the gods at dinner, imagined mechanical
+assistants have been a part of our culture. However, only in the last
+half century have we, the AI community, been able to build
+experimental machines that test hypotheses about the mechanisms of
+thought and intelligent behavior and thereby demonstrate mechanisms
+that formerly existed only as theoretical possibilities.</em></p>
+<p class="ltx_p ltx_align_right">– Bruce <cite class="ltx_cite ltx_citemacro_citet">Buchanan [<a href="ArtInt2e.bib.html#bib.bib538" title="A (very) brief history of artificial intelligence" class="ltx_ref">2005</a>]</cite></p>
+</blockquote>
+<p class="ltx_p">This book is about artificial intelligence, a field built on centuries
+of thought, which has been a recognized discipline for over 60
+years. As Buchanan points out in the quote above, we now have the
+tools to test hypotheses about the nature of thought itself, as well
+as to solve practical tasks.
+Deep scientific and engineering problems have already been solved and
+many more are waiting to be solved. Many practical applications are
+currently deployed and the potential exists for an almost unlimited
+number of future applications. In this book, we present the principles
+that underlie intelligent computational agents. These principles can
+help you understand current and future work in AI and equip you to
+contribute to the discipline yourself.</p>
+</div>
+<div class="ltx_TOC">
+<ul class="ltx_toclist ltx_toclist_chapter">
+<li class="ltx_tocentry"><a href="ArtInt2e.Ch1.S1.html" title="1.1 What is Artificial Intelligence? ‣ Chapter 1 Artificial Intelligence and Agents ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">1.1 </span>What is Artificial Intelligence?</span></a></li>
+</ul>
+</div>
+<div class="ltx_TOC">
+<ul class="ltx_toclist ltx_toclist_chapter">
+<li class="ltx_tocentry"><a href="ArtInt2e.Ch1.S2.html" title="1.2 A Brief History of Artificial Intelligence ‣ Chapter 1 Artificial Intelligence and Agents ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">1.2 </span>A Brief History of Artificial Intelligence</span></a></li>
+</ul>
+</div>
+<div class="ltx_TOC">
+<ul class="ltx_toclist ltx_toclist_chapter">
+<li class="ltx_tocentry"><a href="ArtInt2e.Ch1.S3.html" title="1.3 Agents Situated in Environments ‣ Chapter 1 Artificial Intelligence and Agents ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">1.3 </span>Agents Situated in Environments</span></a></li>
+</ul>
+</div>
+<div class="ltx_TOC">
+<ul class="ltx_toclist ltx_toclist_chapter">
+<li class="ltx_tocentry"><a href="ArtInt2e.Ch1.S4.html" title="1.4 Designing Agents ‣ Chapter 1 Artificial Intelligence and Agents ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">1.4 </span>Designing Agents</span></a></li>
+</ul>
+</div>
+<div class="ltx_TOC">
+<ul class="ltx_toclist ltx_toclist_chapter">
+<li class="ltx_tocentry"><a href="ArtInt2e.Ch1.S5.html" title="1.5 Agent Design Space ‣ Chapter 1 Artificial Intelligence and Agents ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">1.5 </span>Agent Design Space</span></a></li>
+</ul>
+</div>
+<div class="ltx_TOC">
+<ul class="ltx_toclist ltx_toclist_chapter">
+<li class="ltx_tocentry"><a href="ArtInt2e.Ch1.S6.html" title="1.6 Prototypical Applications ‣ Chapter 1 Artificial Intelligence and Agents ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">1.6 </span>Prototypical Applications</span></a></li>
+</ul>
+</div>
+<div class="ltx_TOC">
+<ul class="ltx_toclist ltx_toclist_chapter">
+<li class="ltx_tocentry"><a href="ArtInt2e.Ch1.S7.html" title="1.7 Overview of the Book ‣ Chapter 1 Artificial Intelligence and Agents ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">1.7 </span>Overview of the Book</span></a></li>
+</ul>
+</div>
+<div class="ltx_TOC">
+<ul class="ltx_toclist ltx_toclist_chapter">
+<li class="ltx_tocentry"><a href="ArtInt2e.Ch1.S8.html" title="1.8 Review ‣ Chapter 1 Artificial Intelligence and Agents ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">1.8 </span>Review</span></a></li>
+</ul>
+</div>
+<div class="ltx_TOC">
+<ul class="ltx_toclist ltx_toclist_chapter">
+<li class="ltx_tocentry"><a href="ArtInt2e.Ch1.S9.html" title="1.9 References and Further Reading ‣ Chapter 1 Artificial Intelligence and Agents ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">1.9 </span>References and Further Reading</span></a></li>
+</ul>
+</div>
+<div class="ltx_TOC">
+<ul class="ltx_toclist ltx_toclist_chapter">
+<li class="ltx_tocentry"><a href="ArtInt2e.Ch1.S10.html" title="1.10 Exercises ‣ Chapter 1 Artificial Intelligence and Agents ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition" class="ltx_ref"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">1.10 </span>Exercises</span></a></li>
+</ul>
+</div>
+</section>
+</div>
+<footer class="ltx_page_footer">
+<div>
+<a href="ArtInt2e.Chx1.html" title="Preface ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition" class="ltx_ref" rel="prev"><span class="ltx_text ltx_ref_title">Preface</span></a><a href="ArtInt2e.bib.html" title="Bibliography ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition" class="ltx_ref" rel="bibliography"><span class="ltx_text ltx_ref_title">Bibliography</span></a><a href="ArtInt2e.idx.html" title="Index ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition" class="ltx_ref" rel="index"><span class="ltx_text ltx_ref_title">Index</span></a><a href="ArtInt2e.Ch1.S1.html" title="1.1 What is Artificial Intelligence? ‣ Chapter 1 Artificial Intelligence and Agents ‣ Artificial Intelligence: Foundations of Computational Agents, 2nd Edition" class="ltx_ref" rel="next"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">1.1 </span>What is Artificial Intelligence?</span></a>
+</div>
+<div class="ltx_page_logo">Generated  on Mon Nov  6 09:10:14 2017 by <a href="http://dlmf.nist.gov/LaTeXML/">LaTeXML <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg==" alt="[LOGO]"></a>
+</div></footer>
+
+</div>
+	<!-- footer starts -->		
+	<div id="footer">						
+		<p><a href="http://artint.info">Artificial Intelligence: Foundations of Computational Agents, Poole
+	& Mackworth</a><br/>
+	This online version is free to view and download for personal use
+only. The text is not for re-distribution, re-sale or use in derivative works. Copyright &copy; 2017, <a href="http://cs.ubc.ca/~poole/">David L. Poole</a> and 
+  			<a href="http://cs.ubc.ca/~mack/">Alan K. Mackworth</a>. This book is published by <a href="http://www.cambridge.org/9781107195394">Cambridge University Press</a>.
+   		</p>	
+	<!-- footer ends-->
+</div>
+</body>
+</html>
