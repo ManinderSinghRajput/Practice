@@ -26,3 +26,7 @@ Shell Scripting:
 Shell Script, Docker, Kubernetes....anything	: https://www.linuxnix.com/
 
 Memory fences:
+
+Multithreading:
+	Multithreading Basics			: https://www.cs.cmu.edu/afs/cs/academic/class/15492-f07/www/pthreads.html
+						: https://randu.org/tutorials/threads/
