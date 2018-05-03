@@ -29,6 +29,9 @@ Shell Script, Docker, Kubernetes....anything	: https://www.linuxnix.com/
 
 Memory fences:
 
+Process Control:
+	Fork , vfork and exec			: https://notes.shichao.io/apue/ch8/
+
 Multithreading:
 	Multithreading Basics			: https://www.cs.cmu.edu/afs/cs/academic/class/15492-f07/www/pthreads.html
 						: https://randu.org/tutorials/threads/
