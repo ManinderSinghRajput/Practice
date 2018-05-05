@@ -1,4 +1,9 @@
-C						: https://users.cs.cf.ac.uk/Dave.Marshall/C/CE.html
+C:
+	Basic to Advanced C			: https://users.cs.cf.ac.uk/Dave.Marshall/C/CE.html
+
+GDB:
+	Debugging with GDB			: https://www.sourceware.org/gdb/current/onlinedocs/gdb/index.html
+	
 
 Memory Management:
 	CustomizedMemoryAllocator		: https://danluu.com/malloc-tutorial/
@@ -9,7 +14,7 @@ Memory Management:
 	Memory layout				: https://www.geeksforgeeks.org/memory-layout-of-c-program/
         Mmap					: https://www.safaribooksonline.com/library/view/linux-system-programming/0596009585/ch04s03.html
 
-Statis and Dynamic Libraries:
+Static and Dynamic Libraries:
 	Static and dynamic Libraries		: http://cs-fundamentals.com/c-programming/static-and-dynamic-linking-in-c.php
 	Relocatable vs Position-Independent Code: http://davidad.github.io/blog/2014/02/19/relocatable-vs-position-independent-code-or/
 
